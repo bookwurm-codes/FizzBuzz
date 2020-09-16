@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FizzBuzz</title>
+    <link rel="stylesheet" href="app/css/style.css">
+    <script src="app/js/fizzbuzz.js"></script>
 </head>
 <body>
-    
+    <figure>
+        <img class="responsive" src="app/img/can.png" alt="Energy Drink Can">
+        <figcaption>Icon made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></figcaption>
+    </figure>
+    <h1>FizzBuzz Challenge</h1>
+
+    <p>The FizzBuzz program prints the numbers from 1 to 100. But for multiples of the Fizz value, print "Fizz" instead and for multiples of the Buzz value, print "Buzz" instead.</p>
+
+    <label for="fizz">Enter a value for Fizz: (1-100)
+        <input type="number" name="fizz" id="fizz" min="1" max="100" value="3">
+    </label>
+    <br>
+    <br>
+    <label for="buzz">Enter a value for Buzz: (1-100)
+        <input type="number" name="buzz" id="buzz" min="1" max="100" value="5">
+    </label>
+    <input type="submit" onclick="display()" value="Fizz-Buzzer">
+    <label for="results">Results:</label><br>
+    <p id="results"></p>
+   
 </body>
 </html>
