@@ -1,14 +1,81 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .responsive {
-	max-width: 50%;
+	width: 20rem; 
 	height: auto;
   }
-img{
+
+header {
+    margin: 0px auto -1px auto;
+	padding: 15px;
+}
+
+img {
 	padding: 5px;
+}
+
+figcaption {
+	font-size: 0.8rem;
+	width: 10rem;
+	padding-left: 5rem;
+}
+
+header > h1 {
+	margin-bottom: 0%;
+	padding: 15px;
+}
+
+.rev-style{
+	max-width: 700px;
+	padding: 0px 12px 10px 20px;
+	font-size: 18px;
+}
+
+.prompt{
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding-bottom: 3px;
+}
+
+label {
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+
+label > span {
+	font-weight: bold;
+	float: left;
+	padding-top: 0px;
+	padding-right: 5px;
+}
+
+input[type=submit] {
+	border: none;
+	padding: 8px 15px 8px 15px;
+	margin-bottom: 15px; 
+	background: #1e71d4;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+input[type=submit]:hover {
+	background: #0c4ead;
+	color: #fff;
 }
 
 #results {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	border-collapse: collapse;
+	/* border-collapse: collapse; */
 	width: 100%;
-	background-color: gainsboro; 
+	background-color: #f8f8f8;
+	border: solid 2px black; 
   }
