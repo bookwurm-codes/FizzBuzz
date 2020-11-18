@@ -2,8 +2,10 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header Content */
+
 .responsive {
-	width: 20rem; 
+	width: 10rem; 
 	height: auto;
   }
 
@@ -19,13 +21,17 @@ img {
 figcaption {
 	font-size: 0.8rem;
 	width: 10rem;
-	padding-left: 5rem;
+	padding-left: 4.5rem;
 }
 
 header > h1 {
 	margin-bottom: 0%;
-	padding: 15px;
+    padding: 15px;
+    font-size: 3em;
 }
+
+
+/* Prompt and Input Content */
 
 .rev-style{
 	max-width: 700px;
@@ -72,10 +78,25 @@ input[type=submit]:hover {
 	color: #fff;
 }
 
+
+/* Result Content */
+
 #results {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	/* border-collapse: collapse; */
-	width: 100%;
+    width: 100%;
 	background-color: #f8f8f8;
-	border: solid 2px black; 
-  }
+    border: solid 2px black;
+    border-spacing: 0; 
+}
+
+td {
+    width: 20%;
+}
+
+tr:nth-child(2n) td:nth-child(2n-1) {
+    background-color: #709ae7;
+}
+
+tr:nth-child(2n) {
+    background-color: #90b5e9;
+}
